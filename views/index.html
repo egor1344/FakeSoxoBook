@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>FakeSoxoBook</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+
+<body>
+  <div class="container">    
+<!--     <div class="col-6 in_images_window" id="in_images_window">
+      <div class="in_image" >
+        <img src="" id="in_image">
+      </div>
+      <div class="buttoms">
+      <input type="file" @change="imagesSelect">
+      <input type="submit" @click='onUploadImage'>
+      </div>
+    </div>
+    <div class="col-6 previe">
+      <div class="out_image">
+        
+      </div>
+    </div> -->
+
+<div class="row justify-content-center">  
+    <div class="col-5 sxema_page">
+      Схема страницы
+    </div>
+    <div class="col-2"></div> 
+    <div class="col-5 sxema_page">
+      Схема страницы      
+    </div>
+</div>
+<hr>
+  
+<div class="row justify-content-center">
+  <div class="col-5 text-center number_page">Страцница 1</div>
+  <div class="col-2"></div>
+  <div class="col-5 text-center number_page">Страница 2</div>
+</div>
+
+<hr>
+<div class="image_pages">
+  <div class="row">
+    <div class="col-5 page">
+      <div class="sxema_1" id="page_1">
+        <div class="row justify-content-center">
+          <div class="col-5 block sxema_1_block_1">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>
+          </div>
+          <div class="col-5 block sxema_1_block_2">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>          
+          </div>
+          <div class="col-5 block sxema_1_block_3">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>          
+          </div>
+          <div class="col-5 block sxema_1_block_4">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 in_image"></div>
+    <div class="col-5 page">
+      <div class="sxema_1" id="page_2">
+        <div class="row justify-content-center">
+          <div class="col-5 block sxema_1_block_1">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>                    
+          </div>
+          <div class="col-5 block sxema_1_block_2">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>          
+          </div>
+          <div class="col-5 block sxema_1_block_3">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>          
+          </div>
+          <div class="col-5 block sxema_1_block_4">
+            <div class="upload_wraper_buttom">
+              <button  class="btn_upload">Загрузить</button>
+              <input type="file" @change="imagesSelect" />
+            </div>          
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="row page_check">
+  <div class="col-5">
+    <button type="button" class="btn btn-outline-secondary"><- Предыдущий переплет</button>
+  </div>
+  <div class="col-5">
+    <button type="button" class="btn btn-outline-secondary">-> Следующий переплет</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-1 mr-auto ml-auto">
+    <button type="button" class="btn btn-outline-success">Готово</button>
+  </div>
+</div>
+
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/static/js/previe.js"></script>
+</html>
